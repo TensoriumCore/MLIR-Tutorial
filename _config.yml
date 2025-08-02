@@ -1,0 +1,16 @@
+title: MLIR Out-of-Tree Tutorial
+description: "Tutoriel complet pour créer un dialecte MLIR out-of-tree (FR/EN)"
+theme: just-the-docs
+
+url: "https://TON-USER.github.io"
+baseurl: "/mlir-out-of-tree-tutorial"
+
+aux_links:
+  "🇫🇷 Français":
+    - "/mlir-out-of-tree-tutorial/fr/"
+  "🇬🇧 English":
+    - "/mlir-out-of-tree-tutorial/en/"
+
+search_enabled: true
+search:
+  heading_level: 2
