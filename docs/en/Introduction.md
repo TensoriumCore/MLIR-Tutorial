@@ -31,4 +31,4 @@ This tutorial will guide you step by step through:
 
 > This tutorial is up to date for **LLVM 22**.
 
-- [Next section: CMake Environment](Environment%20Setup.md)
+- [Next section: CMake Environment](Environment-Setup.md)

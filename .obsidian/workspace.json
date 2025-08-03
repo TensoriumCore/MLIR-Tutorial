@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/en/Dialect creation.md",
+                "file": "docs/en/Environment-Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dialect creation"
+              "title": "Environment-Setup"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/en/Dialect creation.md",
+                "file": "docs/en/Environment-Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dialect creation"
+              "title": "Backlinks for Environment-Setup"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/en/Dialect creation.md",
+                "file": "docs/en/Environment-Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Dialect creation"
+              "title": "Outgoing links from Environment-Setup"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/en/Dialect creation.md",
+                "file": "docs/en/Environment-Setup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dialect creation"
+              "title": "Outline of Environment-Setup"
             }
           }
         ]
@@ -168,17 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cdc20bcbc91f2c90",
+  "active": "c3a0c2a858aa43f0",
   "lastOpenFiles": [
+    "docs/en/Dialect creation.md",
     "docs/en/index.md~",
     "_config.yml~",
-    "docs/en/Environment Setup.md",
+    "docs/en/Environment-Setup.md",
     "docs/en/Introduction.md",
     "docs/en/index.md",
     "docs/index.md",
     "README.md",
     "docs/fr/index.md",
-    "docs/en/Dialect creation.md",
     "docs/en/passes.md",
     "docs/en/tests.md",
     "en.md"
