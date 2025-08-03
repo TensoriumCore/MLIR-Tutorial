@@ -5,9 +5,4 @@ layout: default
 
 # MLIR Out-of-Tree Tutorial
 
-Bienvenue / Welcome 👋
-
-Choisissez votre langue :
-
-- 🇫🇷 [Français](fr/)
-- 🇬🇧 [English](en/)
+-  [Wrote your first MLIR Dialect](en/index.md)
