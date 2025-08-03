@@ -40,7 +40,7 @@ We will use **CMake** to build the _out-of-tree_ dialect. Basic folder layout:
 MLIR-Tutorial/
 ├── CMakeLists.txt
 ├── include/
-│   └── MyDialect/
+│   └── TutoDialect/
 │       ├── TutoDialect.h
 │       ├── TutoDialectOps.h
 |       ├── TutoDialect.td
@@ -60,7 +60,7 @@ Root `CMakeLists.txt`:
 
 ```cmake
 cmake_minimum_required(VERSION 3.20)
-project(MyDialect LANGUAGES CXX)
+project(TutoDialect LANGUAGES CXX)
 
 find_package(MLIR REQUIRED CONFIG)
 
