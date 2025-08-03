@@ -74,3 +74,77 @@ add_subdirectory(lib)
 enable_testing()
 add_subdirectory(test)
 ```
+
+# Additional CMakeLists for Out-of-Tree Dialect
+
+---
+
+## `include/CMakeLists.txt`
+
+```cmake
+# Configure include directory for TableGen generated headers
+add_subdirectory(TutoDialect)
+```
+
+---
+
+## `include/TutoDialect/CMakeLists.txt`
+
+```cmake
+set(LLVM_TARGET_DEFINITIONS TutoDialect.td)
+mlir_tablegen(TutoDialectDialect.h.inc -gen-dialect-decls)
+mlir_tablegen(TutoDialectDialect.cpp.inc -gen-dialect-defs)
+add_public_tablegen_target(TutoDialectIncGen)
+
+set(LLVM_TARGET_DEFINITIONS TutoDialectOps.td)
+mlir_tablegen(TutoDialectOps.h.inc -gen-op-decls)
+mlir_tablegen(TutoDialectOps.cpp.inc -gen-op-defs)
+add_public_tablegen_target(TutoDialectOpsIncGen)
+```
+
+---
+
+## `lib/CMakeLists.txt`
+
+```cmake
+add_mlir_dialect_library(TutoDialect
+  TutoDialect.cpp
+
+  DEPENDS
+  TutoDialectIncGen
+  TutoDialectOpsIncGen
+
+  LINK_LIBS PUBLIC
+  MLIRIR
+)
+```
+
+---
+
+## `test/CMakeLists.txt`
+
+```cmake
+add_subdirectory(TutoDialect)
+```
+
+---
+
+## `test/TutoDialect/CMakeLists.txt`
+
+```cmake
+configure_lit_site_cfg(
+  ${CMAKE_CURRENT_SOURCE_DIR}/lit.site.cfg.py.in
+  ${CMAKE_CURRENT_BINARY_DIR}/lit.site.cfg.py
+)
+
+set(TUTO_DIALECT_TEST_DEPENDS
+  FileCheck count not
+  TutoDialect
+)
+
+add_lit_testsuite(check-tuto-dialect "Running the TutoDialect tests"
+  ${CMAKE_CURRENT_BINARY_DIR}
+  DEPENDS ${TUTO_DIALECT_TEST_DEPENDS}
+)
+add_lit_testsuites(TUTO_DIALECT ${CMAKE_CURRENT_SOURCE_DIR} DEPENDS ${TUTO_DIALECT_TEST_DEPENDS})
+```
