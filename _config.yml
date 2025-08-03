@@ -2,7 +2,7 @@ title: MLIR Out-of-Tree Tutorial
 description: "Tutoriel complet pour créer un dialecte MLIR out-of-tree (FR/EN)"
 theme: just-the-docs
 
-url: "https://TON-USER.github.io"
+url: "https://tensoriumcore.github.io"
 baseurl: "/mlir-out-of-tree-tutorial"
 
 aux_links:

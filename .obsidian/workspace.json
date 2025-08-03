@@ -170,15 +170,17 @@
   },
   "active": "cdc20bcbc91f2c90",
   "lastOpenFiles": [
+    "docs/en/index.md~",
+    "_config.yml~",
     "docs/en/Environment Setup.md",
-    "docs/en/index.md",
-    "docs/en/passes.md",
     "docs/en/Introduction.md",
-    "docs/en/Dialect creation.md",
+    "docs/en/index.md",
     "docs/index.md",
+    "README.md",
     "docs/fr/index.md",
+    "docs/en/Dialect creation.md",
+    "docs/en/passes.md",
     "docs/en/tests.md",
-    "en.md",
-    "README.md"
+    "en.md"
   ]
 }
