@@ -2,8 +2,8 @@
 
 Welcome to this complete tutorial on creating an **out-of-tree** MLIR dialect.
 
-- [Introduction](introduction.md)
-- [Environment and CMake](env.md)
-- [Dialect Creation](dialect.md)
+- [Introduction](Introduction.md)
+- [Environment and CMake](Environment%20Setup.md)
+- [Dialect Creation](Dialect%20creation.md)
 - [Passes and Lowering](passes.md)
 - [Testing with lit](tests.md)

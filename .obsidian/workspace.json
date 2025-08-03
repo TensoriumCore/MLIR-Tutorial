@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/en/env.md",
+                "file": "docs/en/Dialect creation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "env"
+              "title": "Dialect creation"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/en/env.md",
+                "file": "docs/en/Dialect creation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for env"
+              "title": "Backlinks for Dialect creation"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/en/env.md",
+                "file": "docs/en/Dialect creation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from env"
+              "title": "Outgoing links from Dialect creation"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/en/env.md",
+                "file": "docs/en/Dialect creation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of env"
+              "title": "Outline of Dialect creation"
             }
           }
         ]
@@ -170,15 +170,15 @@
   },
   "active": "cdc20bcbc91f2c90",
   "lastOpenFiles": [
-    "docs/en/introduction.md",
+    "docs/en/Environment Setup.md",
     "docs/en/index.md",
     "docs/en/passes.md",
-    "docs/en/env.md",
+    "docs/en/Introduction.md",
+    "docs/en/Dialect creation.md",
     "docs/index.md",
     "docs/fr/index.md",
     "docs/en/tests.md",
     "en.md",
-    "README.md",
-    "docs/en/dialect.md"
+    "README.md"
   ]
 }
