@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2843680f571045af",
@@ -168,17 +169,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3a0c2a858aa43f0",
+  "active": "cdc20bcbc91f2c90",
   "lastOpenFiles": [
     "docs/en/Environment-Setup.md",
+    "docs/en/index.md",
+    "docs/en/Introduction.md",
+    "docs/fr/index.md",
     "docs/en/Dialect-creation.md",
     "docs/en/index.md~",
     "_config.yml~",
-    "docs/en/Introduction.md",
-    "docs/en/index.md",
     "docs/index.md",
     "README.md",
-    "docs/fr/index.md",
     "docs/en/passes.md",
     "docs/en/tests.md",
     "en.md"
