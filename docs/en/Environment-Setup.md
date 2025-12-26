@@ -44,7 +44,7 @@ ninja -j64  # Adjust -j for your CPU
 sudo ninja install
 ```
 
-✅ **Check installation:**
+**Check installation:**
 
 ```bash
 mlir-opt --version
@@ -206,7 +206,7 @@ cmake -G Ninja ..
 ninja
 ```
 
-✅ You should now be able to run:
+You should now be able to run:
 
 ```bash
 ./bin/Tuto-opt test/TutoTest.mlir
